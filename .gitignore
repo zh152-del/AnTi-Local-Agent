@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# PyInstaller 构建产物（安装包已作为 AnTi-Setup.exe 单独提交）
+build/
+dist/
+*.spec.bak
+
+# 原始未打包本体（已内嵌进安装包，无需重复提交）
+AnTi.exe
+
+# 临时/敏感
+.ghtoken
+.ghbody.json
